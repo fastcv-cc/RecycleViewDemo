@@ -35,6 +35,9 @@
         <activity android:name=".high.itemdecoration.ItemDecorationActivity" />
         <activity android:name=".high.itemtouchhelper.ItemTouchHelperActivity" />
         <activity android:name=".high.snaphelper.SnapHelperActivity" />
+        <activity android:name=".high.diffutil.DiffUtilActivity" />
+        <activity android:name=".high.diffutil.AsyncDiffUtilActivity" />
+        <activity android:name=".high.diffutil.ListAdapterActivity" />
     </application>
 
 </manifest>

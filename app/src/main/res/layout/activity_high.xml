@@ -32,4 +32,25 @@
         android:textAllCaps="false"
         android:text="SnapHelper" />
 
+    <Button
+        android:id="@+id/btDiffUtil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="DiffUtil" />
+
+    <Button
+        android:id="@+id/btAsyncDiffUtil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="AsyncDiffUtil" />
+
+    <Button
+        android:id="@+id/btListAdapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="ListAdapter" />
+
 </LinearLayout>
