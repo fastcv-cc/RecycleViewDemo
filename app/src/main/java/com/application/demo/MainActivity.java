@@ -4,9 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
+
+import com.application.demo.base.BaseUseActivity;
+import com.application.demo.high.HighUseActivity;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        findViewById(R.id.btBase).setOnClickListener(v -> startActivity(new Intent(MainActivity.this, BaseUseActivity.class)));
+        findViewById(R.id.btHigh).setOnClickListener(v -> startActivity(new Intent(MainActivity.this, HighUseActivity.class)));
     }
 
 }

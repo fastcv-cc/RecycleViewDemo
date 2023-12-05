@@ -25,6 +25,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".base.BaseUseActivity" />
+        <activity android:name=".high.HighUseActivity" />
+        <activity android:name=".base.grid.GridLayoutActivity" />
+        <activity android:name=".base.horizontal.HorizontalLayoutActivity" />
+        <activity android:name=".base.vertical.VerticalLayoutActivity" />
+        <activity android:name=".base.waterfall.WaterfallLayoutActivity" />
+        <activity android:name=".high.itemanimator.ItemAnimatorActivity" />
+        <activity android:name=".high.itemdecoration.ItemDecorationActivity" />
+        <activity android:name=".high.itemtouchhelper.ItemTouchHelperActivity" />
+        <activity android:name=".high.snaphelper.SnapHelperActivity" />
     </application>
 
 </manifest>
